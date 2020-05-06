@@ -1,0 +1,71 @@
+.sidenav{
+    /* max-width: inherit; */
+    min-height: 30rem;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 0.5rem;
+
+    /* justify-self: right; */
+}
+.sidenav:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+/* li{
+    margin-left: 0.2rem;
+    list-style-type:none;
+} */
+ul{
+    padding-left: 0.5rem;
+    list-style-type:none;
+}
+
+.rootmenu{
+    border-style: solid;
+    background: white;
+    padding:0.25rem;
+    margin:0.25rem;
+    width: 10rem;
+    border-radius: 0.25rem;
+}
+.rootmenu-clicked{
+    background-color: rgb(247, 191, 151);
+    border-style: solid;
+    border-color: rgb(255, 203, 126);
+    border-radius: 0.25rem;
+}
+.rootmenu:hover{
+    background-color: rgb(145, 169, 223);
+    border-style: solid;
+    border-color: rgb(105, 164, 241);
+}
+
+
+.menu{
+    border-style: solid;
+    padding:0.25rem;
+    margin:0.25rem;
+    max-width: inherit;
+    border-radius: 0.25rem;
+}
+.menu-clicked{
+    background-color: rgb(219, 219, 219);
+    border-style: solid;
+    padding:0.25rem;
+    margin:0.25rem;
+    max-width: inherit;
+    border-color: rgb(156, 156, 156);
+    border-radius: 0.25rem;
+}
+.menu:hover{
+    background-color: rgb(145, 169, 223);
+    border-style: solid;
+    padding:0.25rem;
+    margin:0.25rem;
+    max-width: inherit;
+    border-color: rgb(105, 164, 241);
+    border-radius: 0.25rem;
+}

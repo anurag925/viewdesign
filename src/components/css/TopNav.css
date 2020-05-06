@@ -1,0 +1,11 @@
+.topnav{
+    /* background-color: blue; */
+    max-width: 100%;
+    max-height: inherit;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}

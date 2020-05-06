@@ -1,0 +1,7 @@
+.show{
+    margin-top: 2rem;
+    margin-left: 15rem;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,11 @@
+.formbox{
+    max-width: 25rem;
+    border-style: solid;
+    padding:3rem;
+    border-radius: 0.25rem;
+}
+.forminner{
+    display: flex;
+    flex-wrap: wrap;
+
+}

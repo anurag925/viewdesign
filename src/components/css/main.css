@@ -1,0 +1,129 @@
+form{
+    border-style:solid;
+    height:20rem;
+    width:30rem;
+    display:flex;
+    flex-wrap: wrap;
+    padding:2rem;
+  }
+  label{
+    /* border-style:solid; */
+    height:max-content;
+    padding:0.2rem;
+    width:7rem;
+    margin-left:1rem;
+    margin-right:6rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    text-align:center;
+    border-radius: 0.25rem;
+    background-color: rgb(206, 206, 206);
+    color: rgb(33, 33, 61);
+  }
+  input[type=text]{
+    height:2rem;
+    width:10rem;
+    margin-left:3rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+  }
+  button{
+    display:flex;
+    text-align:center;
+    margin:1rem;
+  }
+  .submit{
+    background-color: #4CAF50;
+    width:6rem;
+    font-size: 1rem;
+    padding:0.5rem;
+    color: white;
+    border-radius: 4px;
+  }
+  .cancel{
+    background-color: #f44336;
+    width:6rem;
+    font-size: 1rem;
+    padding:0.5rem;
+    color: white;
+    border-radius: 4px;
+    margin-left: 14rem;
+  }
+  .validate{
+    background-color: rgb(93, 131, 255);
+    width:6rem;
+    font-size: 1rem;
+    padding:0.5rem;
+    color: white;
+    border-radius: 4px;
+  }
+
+
+  .main{
+    margin-left:3rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    width:5rem;
+    height: max-content;
+    display:flex;
+    background-color: rgb(191, 204, 204);
+    border-radius: 0.2rem;
+  }
+    .on{
+      padding:0.25rem;
+      width:3rem;
+      background-color: rgb(62, 110, 241);
+      text-align: center;
+      border-radius: 0.2rem;
+      color:white;
+      cursor:pointer;
+    }
+    .off{
+      margin-left:1.5rem;
+      padding:0.25rem;
+      width:3rem;
+      background-color: rgb(62, 110, 241);
+      text-align: center;
+      border-radius: 0.2rem;
+      color:white;
+      cursor:pointer;
+    }
+
+    .on .off{
+      transition: all 0.3s;
+    }
+
+    textarea{
+      border-color: purple;
+      background-color: plum;
+    }
+    textarea::placeholder {  
+      text-align: center;
+      color: black;
+      padding-top: 1rem;
+  } 
+
+
+#cb{
+  padding-left:0rem ;
+}
+#drop{
+  border-style: none;
+  height:max-content;
+    padding:0.2rem;
+    width:7rem;
+    margin-left:1rem;
+    margin-right:6rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    text-align:center;
+    border-radius: 0.25rem;
+    background-color: rgb(206, 206, 206);
+    color: rgb(33, 33, 61);
+}
+select::-ms-expand {
+  display: none;
+  }
+#drop select{
+  background-color: #4CAF50;
+}

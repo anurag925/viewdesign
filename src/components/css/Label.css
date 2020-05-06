@@ -1,0 +1,9 @@
+.label{
+    margin:0.5rem;
+    padding:0.2rem 2rem 0.2rem 2rem;
+    height: max-content;
+    width: 5rem;
+    border-radius: 0.25rem;
+    background-color: rgb(206, 206, 206);
+    color: rgb(33, 33, 61);
+  }

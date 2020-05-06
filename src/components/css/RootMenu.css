@@ -1,0 +1,26 @@
+
+.rootmenu{
+    border-style: solid;
+    padding:0.25rem;
+    margin:0.25rem;
+    max-width: inherit;
+    border-radius: 0.25rem;
+}
+.rootmenu-clicked{
+    background-color: rgb(247, 191, 151);
+    border-style: solid;
+    padding:0.25rem;
+    margin:0.25rem;
+    max-width: inherit;
+    border-color: rgb(255, 203, 126);
+    border-radius: 0.25rem;
+}
+.rootmenu:hover{
+    background-color: rgb(145, 169, 223);
+    border-style: solid;
+    padding:0.25rem;
+    margin:0.25rem;
+    max-width: inherit;
+    border-color: rgb(105, 164, 241);
+    border-radius: 0.25rem;
+}
